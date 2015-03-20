@@ -1,0 +1,52 @@
+body, html{
+    margin:0;
+}
+
+h1{
+    height:60px;
+    line-height:60px;
+    margin: 0;
+}
+
+#frame{
+
+    width: 100vw;
+    height: calc(100vh - 60px);
+}
+
+#tabBar{
+    width: 100%;
+
+    height: 30px;
+    background: aqua;
+}
+
+#logPanel{
+    width:100%;
+    height: calc(100% - 180px);
+    background-color: dodgerblue;
+}
+#typeBox{
+    height:150px;
+    width: 100%;
+    background:hotpink;
+}
+#userList{
+    width: 180px;
+    /* margin-left: 0px; */
+    background-color: silver;
+    height: 100%;
+    float: right;
+}
+
+#chatPanel {
+    background-color:green;
+    float:left;
+
+    /* min-width: 500px; */
+    height: 100%;
+    width: calc(100% - 180px);
+    /* position: relative; */
+    /* left: 0; */
+    /* right: -250px; */
+}
